@@ -1,0 +1,29 @@
+#
+# DO NOT DELETE THESE LINES!
+#
+# Your AMI ID is:
+#
+#     ami-eea9f38e
+#
+# Your subnet ID is:
+#
+#     subnet-b30f9ceb
+#
+# Your security group ID is:
+#
+#     sg-834d35e4
+#
+# Your Identity is:
+#
+#     autodesk-coyote
+#
+
+provider "aws" {
+  access_key = "AKIAJAO4XXSAFTFMMBXQ"
+  secret_key = "nb4vmpio0le8844Nfry1govBwguWXaNJXVKc41YG"
+  region     = "us-west-1"
+}
+
+resource "aws_instance" "web" {
+  # ...
+}
